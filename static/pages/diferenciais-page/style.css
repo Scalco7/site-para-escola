@@ -1,0 +1,284 @@
+/*
+font-family: 'Nunito', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+.color1 { #fb6f24 };
+.color2 { #8ca315 };
+.color3 { #5191c1, rgb(81, 145, 193) };
+.color4 { #1e6495, rgb(30, 100, 149) };
+.color5 { #0a4b75, rgb(10, 75, 117) };
+*/
+
+
+#body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#navegacao{
+    width: 100%;
+    height: 15%;
+    position: fixed;
+    top: 0vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1e6495;
+}
+
+#box-logo{
+    width: auto;
+    height: 60%;
+}
+
+#img-logo{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.div-nav{
+    cursor: pointer;
+}
+
+.link-pages{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 1.4vw;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.link-pages:hover{
+    color: #fb6f24;
+}
+
+#final{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    bottom: -173%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0a4b75;
+}
+
+#txt-1-padding{
+    color: white;
+}
+
+#txt-2-padding{
+    color: white;
+}
+
+#page{
+    width: 100%;
+    height: 250%;
+    position: absolute;
+    top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.titulos{
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 1%;
+    color: white;
+}
+
+#box-1{
+    width: 70%;
+    height: 20%;
+    margin-right: 30%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5191c1;
+    border-bottom-right-radius: 3vw;
+    border-top-right-radius: 3vw;
+}
+
+#bottom-box-1{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+#left-box-1{
+    width: 40%;
+}
+
+#right-box-1{
+    width: 40%;
+}
+
+#txt-ensino{
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+#ft-ensino{
+    width: 100%;
+    border-radius: 3vw;
+}
+
+#box-2{
+    width: 70%;
+    height: 20%;
+    margin-left: 30%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5191c1;
+    border-bottom-left-radius: 3vw;
+    border-top-left-radius: 3vw;
+}
+
+#bottom-box-2{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+#left-box-2{
+    width: 40%;
+}
+
+#right-box-2{
+    width: 40%;
+}
+
+#txt-tecnologia{
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+#ft-tecnologia{
+    width: 100%;
+    border-radius: 3vw;
+}
+
+#box-3{
+    width: 0%;
+    height: 20%;
+    margin-right: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5191c1;
+    border-bottom-right-radius: 3vw;
+    border-top-right-radius: 3vw;
+}
+
+#bottom-box-3{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+#left-box-3{
+    width: 40%;
+}
+
+#right-box-3{
+    width: 40%;
+}
+
+#txt-gatas{
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+#ft-gatas{
+    width: 100%;
+    border-radius: 3vw;
+}
+
+#box-4{
+    width: 0%;
+    height: 20%;
+    margin-left: 80%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5191c1;
+    border-bottom-left-radius: 3vw;
+    border-top-left-radius: 3vw;
+}
+
+#bottom-box-4{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+#left-box-4{
+    width: 40%;
+}
+
+#right-box-4{
+    width: 40%;
+}
+
+#txt-esportes{
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+#ft-esportes{
+    width: 100%;
+    border-radius: 3vw;
+}

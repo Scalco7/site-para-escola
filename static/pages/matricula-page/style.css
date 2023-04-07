@@ -1,0 +1,180 @@
+/*
+font-family: 'Nunito', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+.color1 { #fb6f24 };
+.color2 { #8ca315 };
+.color3 { #5191c1, rgb(81, 145, 193) };
+.color4 { #1e6495, rgb(30, 100, 149) };
+.color5 { #0a4b75, rgb(10, 75, 117) };
+*/
+
+
+#body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#final{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    bottom: -8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0a4b75;
+}
+
+#txt-1-padding{
+    color: white;
+}
+
+#txt-2-padding{
+    color: white;
+}
+
+#navegacao{
+    width: 100%;
+    height: 15%;
+    position: fixed;
+    top: 0vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1e6495;
+}
+
+#box-logo{
+    width: auto;
+    height: 60%;
+}
+
+#img-logo{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.div-nav{
+    cursor: pointer;
+}
+
+.link-pages{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 1.4vw;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.link-pages:hover{
+    color: #fb6f24;
+}
+
+#page{
+    width: 100%;
+    height: 85%;
+    position: absolute;
+    top: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+#left-box{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    background-color: #1e6495;
+    border: 1px solid #0a4b75;
+    border-top-right-radius: 2vw;
+}
+
+#right-box{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fts{
+    width: 60%;
+    border-radius: 2vw;
+}
+
+.boxs-matricula{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 1vw;
+    margin-left: 4vw;
+}
+
+#box-nome{
+    margin-top: 0px;
+}
+
+.titulos-matricula{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: white;
+}
+
+.inputs-matricula{
+    width: 85%;
+    height: 90%;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 1vh;
+    border: 1px solid #0a4b75;
+}  
+
+.selects{
+    width: 85%;
+    height: 90%;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 1vh;
+    border: 1px solid #0a4b75;
+}
+
+#button-enviar{
+    width: 30%;
+    height: 9%;
+    background-color: #8ca315;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    cursor: pointer;
+    border-radius: 3vw;
+}
+
+#txt-enviar{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 700;
+    cursor: pointer;
+}
+

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/pages/matricula-page/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="page">
+
+        <div id="left-box">
+
+            <div id="box-nome" class="boxs-matricula">
+                <label class="titulos-matricula">
+                    Nome do responsável
+                </label>
+                <input placeholder="Sandro Carvalho dos Santos" type="text" id="txt-nome" class="inputs-matricula">
+            </div>
+
+            <div id="box-email" class="boxs-matricula">
+                <label class="titulos-matricula">
+                    Email
+                </label>
+                <input placeholder="Sandro_santos@gmail.com" type="email" id="txt-email" class="inputs-matricula">
+            </div>
+
+            <div id="box-celular" class="boxs-matricula">
+                <label class="titulos-matricula">
+                    Celular
+                </label>
+                <input placeholder="(47) 9 9546-7865" type="tel" id="txt-celular" class="inputs-matricula" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}">
+            </div>
+
+            <div id="box-unidade" class="boxs-matricula">
+                <label class="titulos-matricula">
+                    Unidade de interesse
+                </label>
+                <select name="unidade" id="unidade-interesse" class="selects">
+                    <option value="Curitiba"> Curitiba </option>
+                    <option value="Floripa"> Florianópolis </option>
+                    <option value="Sao-Paulo"> São Paulo </option>
+                    <option value="Brasilia"> Brasília </option>
+                    <option value="Goiania"> Goiania </option>
+                    <option value="Campo-Grande"> Campo Grande </option>
+                </select>
+            </div>
+
+            <div id="box-serie" class="boxs-matricula">
+                <label class="titulos-matricula">
+                    Serie de interesse
+                </label>
+                <select name="serie" id="serie-interesse" class="selects">
+                    <option value="1"> Primeiro ano Fundamental </option>
+                    <option value="2"> Segundo ano Fundamental </option>
+                    <option value="3"> Terceiro ano Fundamental </option>
+                    <option value="4"> Quarto ano Fundamental </option>
+                    <option value="5"> Quinto ano Fundamental </option>
+                    <option value="6"> Sexto ano Fundamental </option>
+                    <option value="7"> Sétimo ano Fundamental </option>
+                    <option value="8"> Oitavo ano Fundamental </option>
+                    <option value="9"> Nono ano Fundamental </option>
+                    <option value="11"> Primeiro ano Médio </option>
+                    <option value="12"> Segundo ano Médio </option>
+                    <option value="13"> Terceiro ano Médio </option>
+                    <option value="graduacao"> Graduação </option>
+
+                </select>
+            </div>
+
+            <div id="button-enviar">
+                <label id="txt-enviar">
+                    Enviar
+                </label>
+            </div>
+
+        </div>
+
+        <div id="right-box">
+            <img id="fts" src="static/img/alunos-4.jfif">
+        </div>
+
+    </div>
+
+    <div id="navegacao">
+        <div id="box-logo">
+            <img id="img-logo" src="static/img/logo-escola.png">
+        </div>
+        <div id="nav-home" class="div-nav"> 
+            <a class="link-pages" href="home_page.html">
+                Home
+            </a>
+        </div>
+        <div id="nav-matricule-se" class="div-nav">
+            <a class="link-pages" href="matricula_page.html">
+                Matricule-se
+            </a>
+        </div>
+        <div id="nav-diferenciais" class="div-nav">
+            <a class="link-pages" href="diferenciais_page.html">
+                Nossos Diferenciais
+            </a>
+        </div>
+        <div id="nav-contato" class="div-nav">
+            <a class="link-pages" href="contato_page.html">
+                Contato
+            </a>
+        </div>
+    </div>
+
+    <div id="final">
+        <label id="txt-1-padding">
+            2022 © Todos os direitos reservados
+        </label>
+        <label id="txt-2-padding">
+            Feito por Felipe M Scalco
+        </label>
+    </div>
+</body>
+<script type="text/javascript" src="static/pages/matricula-page/script.js"></script>
+</html>
